@@ -27,8 +27,6 @@ input[type="text"] {
     margin-right: 10px;
 }
 
-
-
 #resultscontainer {
     width: 80%;
     margin: 0 auto;
@@ -58,4 +56,18 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
